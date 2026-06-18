@@ -78,6 +78,54 @@ body {
 }
 
 @layer components {
+  .prose-blog {
+    @apply text-lg leading-loose text-ink-700;
+  }
+  .prose-blog h2 {
+    @apply mt-12 text-3xl font-bold text-ink-900;
+  }
+  .prose-blog h3 {
+    @apply mt-10 text-2xl font-bold text-ink-900;
+  }
+  .prose-blog p {
+    @apply mt-5 leading-loose;
+  }
+  .prose-blog ul {
+    @apply mt-5 list-disc space-y-2 pr-6;
+  }
+  .prose-blog ol {
+    @apply mt-5 list-decimal space-y-2 pr-6;
+  }
+  .prose-blog a {
+    @apply text-brand underline underline-offset-4 hover:text-brand-700;
+  }
+  .prose-blog strong {
+    @apply font-semibold text-ink-900;
+  }
+  .prose-blog blockquote {
+    @apply my-6 border-r-4 border-brand bg-brand-50 px-5 py-3 italic text-ink-700;
+  }
+  .prose-blog hr {
+    @apply my-12 border-ink-900/10;
+  }
+  .prose-blog table {
+    @apply mt-5 w-full border-collapse text-base;
+  }
+  .prose-blog th {
+    @apply border border-ink-900/10 bg-ink-100 px-4 py-2 text-right font-semibold;
+  }
+  .prose-blog td {
+    @apply border border-ink-900/10 px-4 py-2;
+  }
+  .prose-blog code {
+    @apply rounded bg-ink-100 px-1.5 py-0.5 text-sm;
+  }
+  .prose-blog h2:first-child, .prose-blog h3:first-child {
+    @apply mt-0;
+  }
+}
+
+@layer components {
   .prose-legal h2 {
     @apply mt-10 text-2xl font-bold text-ink-900;
   }

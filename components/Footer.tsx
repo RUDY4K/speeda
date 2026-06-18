@@ -15,8 +15,8 @@ const groups = [
     links: [
       { href: "/about", label: "عن سبيدا" },
       { href: "/demo", label: "احجز ديمو" },
+      { href: "/blog", label: "المدونة" },
       { href: "#", label: "الوظائف" },
-      { href: "#", label: "المدونة" },
     ],
   },
   {

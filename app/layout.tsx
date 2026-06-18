@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Arabic } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { SITE } from "@/lib/seo";
 
@@ -49,6 +51,8 @@ export default function RootLayout({
     <html lang="ar" dir="rtl" className={arabic.variable}>
       <body className="bg-white font-sans text-ink-900 antialiased">
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
