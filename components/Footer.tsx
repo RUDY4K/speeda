@@ -22,10 +22,10 @@ const groups = [
   {
     title: "قانوني",
     links: [
-      { href: "#", label: "سياسة الخصوصية" },
-      { href: "#", label: "شروط الاستخدام" },
-      { href: "#", label: "اتفاقية معالجة البيانات" },
-      { href: "#", label: "الامتثال لـ PDPL" },
+      { href: "/privacy", label: "سياسة الخصوصية" },
+      { href: "/terms", label: "شروط الاستخدام" },
+      { href: "/dpa", label: "اتفاقية معالجة البيانات" },
+      { href: "/privacy#7", label: "حقوقك في PDPL" },
     ],
   },
 ];

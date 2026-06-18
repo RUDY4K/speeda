@@ -76,3 +76,24 @@ body {
     @apply text-lg text-ink-500 lg:text-xl;
   }
 }
+
+@layer components {
+  .prose-legal h2 {
+    @apply mt-10 text-2xl font-bold text-ink-900;
+  }
+  .prose-legal h3 {
+    @apply mt-8 text-xl font-semibold text-ink-900;
+  }
+  .prose-legal p {
+    @apply mt-4 leading-loose;
+  }
+  .prose-legal ul {
+    @apply mt-4 list-disc space-y-2 pr-6;
+  }
+  .prose-legal li {
+    @apply leading-loose;
+  }
+  .prose-legal strong {
+    @apply font-semibold text-ink-900;
+  }
+}
